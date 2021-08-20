@@ -2,19 +2,25 @@
 
 ## How to run notebooks
 
-First of all, you must have conda installed. Follow instructions here:
+Please, select a folder of your interest and download this repository to it. Remember that Anaconda python distribution should be installed prior to the execution of any content. To install it, please follow the instructions here:
 
 https://docs.anaconda.com/anaconda/install/index.html
 
-Once you have anaconda installed, please execute the following command to create an ad-hoc environment to work:
+Once you have downloaded this repository, go inside the `time-series-final-work` folder and execute the following command to create an ad-hoc environment to work:
 
 `conda env create -f environment.yml --prefix ./time-series-final-work-env`
 
-After doing this, in order to be able to access this environment from within a Jupyter Lab Session execute the following command:
+After running this command, you will see a message saying that, in order to activate this new environment, you should execute  
+
+`conda activate full/path/to/time-series-final-work-env`
+
+Please, do as requested.  
+
+Finally, in order to be able to access this environment from within a Jupyter Lab Session execute the following command,
 
 `python -m ipykernel install --user --name time-series-final-work-env --display-name="time-series-final-work-ker"`
 
-Finally, execute 
+followed by 
 
 `jupyter lab`
 

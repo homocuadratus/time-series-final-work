@@ -8,5 +8,5 @@ dependencies:
   - ipykernel
   - matplotlib
   - numpy
-  - statsmodel
+  - statsmodels
   - fbprophet
